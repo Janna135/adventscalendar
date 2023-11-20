@@ -1,0 +1,9 @@
+.tile {
+  @apply aspect-square;
+  @apply relative;
+  @apply flex justify-center items-center;
+}
+
+.tile p{
+  @apply text-white text-xl;
+}

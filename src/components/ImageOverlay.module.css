@@ -1,0 +1,13 @@
+.imageOverlay {
+  @apply w-screen h-screen absolute top-0 bottom-0 left-0 bg-orange-100 flex flex-col items-center justify-center;
+}
+
+.imageOverlayOpen {
+  @apply animate-[grow_300ms_ease-in-out];
+
+}
+
+.imageOverlayClose {
+  @apply animate-[shrink_300ms_ease-in-out];
+
+}
