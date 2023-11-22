@@ -1,9 +1,25 @@
 .tile {
   @apply aspect-square;
   @apply relative;
-  @apply flex justify-center items-center;
+  @apply px-8 py-8; 
+  @apply flex justify-start items-end;
+}
+
+.tile::after {
+ @apply absolute bottom-0 left-0;
+ @apply w-full h-1/3;
+ @apply bg-gradient-to-br from-transparent via-transparent to-slate-50; 
+
+  content: ''
 }
 
 .tile p{
-  @apply text-white text-xl;
+  @apply text-white text-5xl;
+  @apply z-10;
+}
+
+.tile img {
+  @apply absolute;
+  top: calc(50% - 32px);
+  left: calc(50% - 32px);
 }
