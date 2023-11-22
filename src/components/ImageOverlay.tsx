@@ -28,11 +28,25 @@ export const ImageOverlay: React.FC<Props> = ({ dayProps, onClose }) => {
           setIsClosing(true);
           setTimeout(() => onClose(), 300);
         }}
+        className={styles.back}
       >
         <p>Zurück</p>
       </div>
-      <Image src={dayProps.imageUrl} width={300} height={500} alt="" />
-      <p className="mt-4">{dayProps.text}</p>
+      <div className={styles.content}>
+        <div className={styles.contentImage}>
+          <Image
+            src={dayProps.imageUrl}
+            alt=""
+            fill={true}
+            style={{ objectFit: "contain" }}
+          />
+        </div>
+        <p className="mt-4 md:text-lg text-center">{dayProps.text}</p>
+      </div>
+
+      <a href={dayProps.imageUrl} download className={styles.download}>
+        download here
+      </a>
     </div>
   );
 };

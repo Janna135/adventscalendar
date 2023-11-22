@@ -44,12 +44,12 @@ export const contentMoni: {
   {
     backgroundColor: "bg-tertiary",
     imageUrl: Schneetag.src,
-    text: "Schneetag in Wedel im März glaube ich",
+    text: "Schneetag in Wedel im März - wenn es sowas doch mal zu Weihnachten gäbe",
   },
   {
     backgroundColor: "bg-quartiary",
     imageUrl: Beach.src,
-    text: "Of course,  Hille has to be part of this 'Adventskalender', too😊 The selection of the small pictures give you a glimpse of her, when she is feeling happy and relaxed. Birgit, too by the way😉",
+    text: "Of course, Hille has to be part of this 'Adventskalender', too😊 The selection of the small pictures give you a glimpse of her, when she is feeling happy and relaxed. Birgit, too by the way😉",
   },
   {
     backgroundColor: "bg-primary",
@@ -64,7 +64,7 @@ export const contentMoni: {
   {
     backgroundColor: "bg-tertiary",
     imageUrl: Golfplatz.src,
-    text: "Golfplatz Gebers dank Geschenketisch",
+    text: "Der Geschenketisch an unserer neuen Wohnung gab Starthilfe für die Eröffnung des Golfplatz Gebers",
   },
   {
     backgroundColor: "bg-quartiary",
@@ -104,7 +104,7 @@ export const contentMoni: {
   {
     backgroundColor: "bg-tertiary",
     imageUrl: Tomaten.src,
-    text: "Tomatengang im neuen Garten in der neuen Wohnung",
+    text: "Tomatengang im neuen Garten an der neuen Wohnung",
   },
   {
     backgroundColor: "bg-quartiary",
@@ -124,7 +124,7 @@ export const contentMoni: {
   {
     backgroundColor: "bg-tertiary",
     imageUrl: Umzug.src,
-    text: "Umzug nach Halstenbek",
+    text: "Umzug nach Halstenbek - was wohl in den Kartons war?",
   },
   {
     backgroundColor: "bg-quartiary",
@@ -139,12 +139,12 @@ export const contentMoni: {
   {
     backgroundColor: "bg-secondary",
     imageUrl: Nancy.src,
-    text: " wir sind mit Nancy im Park spazieren",
+    text: "Wir sind mit Nancy im Park spazieren",
   },
   {
     backgroundColor: "bg-tertiary",
     imageUrl: Halstenbek.src,
-    text: "Schöne Landschaft in Halstenbek",
+    text: "In der Nähe unserer neuen Wohnung finden sich schöne Landschaften. Besonders schön bei untergehender Sonne.",
   },
   {
     backgroundColor: "bg-quartiary",

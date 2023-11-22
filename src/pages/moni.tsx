@@ -28,6 +28,23 @@ export default function Home() {
     <main
       className={`flex min-h-screen flex-col items-center p-4 ${inter.className}`}
     >
+      <div className="w-full md:w-4/5">
+        <h2 className="text-center text-xl text-primary mb-2">
+          Dear Moni and Glenn,
+        </h2>
+        <br></br>
+
+        <p className="text-center text-2xl text-primary mb-8 px-4">
+          we wish you a wonderful time until christmas! Every day, starting with
+          the 1st of december, a new tile will be unlocked and we can share a
+          memory from the last 12 months with you.
+          <br></br>
+          <br></br>
+          Your family from Germany
+        </p>
+      </div>
+      <hr className="h-1 bg-primary mb-8 w-4/5" />
+
       <div className="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 grid-rows-auto gap-2">
         {contentMoni.map((tile, i) => (
           <Tile

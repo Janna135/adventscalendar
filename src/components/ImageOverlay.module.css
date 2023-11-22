@@ -1,14 +1,36 @@
 .imageOverlay {
-  @apply w-screen h-screen absolute top-0 bottom-0 left-0 bg-orange-100 flex flex-col items-center justify-center;
+  @apply w-screen h-screen fixed top-0 bottom-0 left-0 bg-background;
+  @apply flex flex-col items-center;
   @apply z-50;
+  @apply px-2;
+  @apply overflow-hidden;
 }
 
 .imageOverlayOpen {
   @apply animate-[grow_300ms_ease-in-out];
-
 }
 
 .imageOverlayClose {
   @apply animate-[shrink_300ms_ease-in-out];
+}
 
+.back {
+  @apply flex items-start pt-8 mb-8 text-primary;
+  @apply w-full md:w-4/5 lg:w-1/2;
+}
+
+.content {
+  @apply flex flex-col items-center md:w-4/5 lg:w-1/2;
+}
+
+.contentImage {
+  @apply relative;
+  @apply h-[300px] md:h-[600px];
+  @apply w-full;
+}
+
+.download {
+  @apply text-primary uppercase mt-8 font-medium;
+  @apply px-3 py-1;
+  @apply border-solid border-primary border-2;
 }
