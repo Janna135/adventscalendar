@@ -44,6 +44,7 @@ export default function Home() {
     <main
       className={`flex min-h-screen flex-col items-center p-4 ${inter.className}`}
     >
+<span role="img" aria-label="dog">🐕</span>
       <h1 className="mb-4">Monis toller Adventskalender</h1>
       <div className='w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 grid-rows-auto gap-2'>
         {dummydata.map((tile, i) => <Tile onClick={() => setSelectedImage(tile)} backgroundColor={tile.backgroundColor} title={`${i + 1}`} key={'tile-'+i }/>)}
