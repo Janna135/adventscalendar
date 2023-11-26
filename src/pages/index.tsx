@@ -3,6 +3,7 @@ import { Tile } from "@/components/Tile";
 import { useState } from "react";
 import { ImageOverlay } from "@/components/ImageOverlay";
 import TestImage from "@/assets/TestImage.jpg";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -86,27 +87,10 @@ export default function Home() {
     <main
       className={`flex min-h-screen flex-col items-center p-4 ${inter.className}`}
     >
-      <span role="img" aria-label="dog">
-        🐕
-      </span>
-      <h1 className="mb-4">Monis toller Adventskalender</h1>
-      <div className="w-full grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 grid-rows-auto gap-2">
-        {dummydata.map((tile, i) => (
-          <Tile
-            onClick={() => setSelectedImage(tile)}
-            backgroundColor={tile.backgroundColor}
-            title={`${i + 1}`}
-            key={"tile-" + i}
-            isAvailable={i + 1 <= currentDay}
-          />
-        ))}
-      </div>
-      {selectedImage ? (
-        <ImageOverlay
-          dayProps={selectedImage}
-          onClose={() => setSelectedImage(undefined)}
-        />
-      ) : null}
+      <h1>Adventskalender 2023</h1>
+      <p>Hier solltest du eigentlich nicht sein</p>
+      <Link href="/anke">Zu Ankes Adventskalender</Link>
+      <Link href="/moni">Zu Monis Adventskalender</Link>
     </main>
   );
 }
