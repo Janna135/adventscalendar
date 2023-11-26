@@ -1,11 +1,11 @@
 import Anbaden from "@/assets/anke/Anbaden.jpg";
 import Herbst from "@/assets/anke/Herbst.jpg";
 import LagoMaggiore from "@/assets/anke/LagoMaggiore.jpg";
-import Lauf from "@/assets/anke/Lauf.jpg";
+import Lauf from "@/assets/anke/LaufA.jpg";
 import Piet from "@/assets/anke/Piet.jpg";
 import Portugal from "@/assets/anke/Portugal.jpg";
 import Sonnenuntergang from "@/assets/anke/Sonnenuntergang.jpg";
-import Wasserpistole from "@/assets/anke/Wasserpistole.jpg";
+import Wasserpistole from "@/assets/anke/WasserpistoleA.jpg";
 
 import BadBederkesa from "@/assets/anke/BadBederkesa.jpg";
 import Entspannung from "@/assets/anke/Entspannung.jpg";
