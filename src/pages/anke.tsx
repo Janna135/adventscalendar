@@ -17,12 +17,6 @@ export default function Home() {
   );
 
   const currentDay = new Date().getDate();
-  const currentMonth = new Date().getMonth();
-
-  // TODO: change to 11
-  if (currentMonth !== 11) {
-    return <p>Please wait... the elves are building your advents-calendar.</p>;
-  }
 
   return (
     <main
