@@ -44,7 +44,7 @@ export const contentMoni: {
   {
     backgroundColor: "bg-tertiary",
     imageUrl: Bene1.src,
-    text: "Molly an ihrem Lieblingsplatz im Sommer - versteckt und wachsam",
+    text: "Bene und Janna: Molly an ihrem Lieblingsplatz im Sommer - versteckt und wachsam",
   },
   {
     backgroundColor: "bg-quartiary",
@@ -64,7 +64,7 @@ export const contentMoni: {
   {
     backgroundColor: "bg-tertiary",
     imageUrl: Bene2.src,
-    text: "Nach einem kurzen Eisbad in der Ostsee bei 7 Wassertemperatur",
+    text: "Bene und Janna: Nach einem kurzen Eisbad in der Ostsee bei 7 Wassertemperatur",
   },
   {
     backgroundColor: "bg-quartiary",
@@ -84,7 +84,7 @@ export const contentMoni: {
   {
     backgroundColor: "bg-tertiary",
     imageUrl: Bene3.src,
-    text: "Birdwatching - Mit Fernglas und App für die regionale Forschung",
+    text: "Bene und Janna: Birdwatching - Mit Fernglas und App für die regionale Forschung",
   },
   {
     backgroundColor: "bg-quartiary",
@@ -104,7 +104,7 @@ export const contentMoni: {
   {
     backgroundColor: "bg-tertiary",
     imageUrl: Bene4.src,
-    text: "Mein eigenes Brettspiel - Beam it up - hoffentlich will es ein Verlag!",
+    text: "Bene und Janna: Mein eigenes Brettspiel - Beam it up - hoffentlich will es ein Verlag!",
   },
   {
     backgroundColor: "bg-quartiary",
@@ -124,7 +124,7 @@ export const contentMoni: {
   {
     backgroundColor: "bg-tertiary",
     imageUrl: Bene5.src,
-    text: "Hitzacker an der Elbe",
+    text: "Bene und Janna: Hitzacker an der Elbe",
   },
   {
     backgroundColor: "bg-quartiary",
@@ -144,7 +144,7 @@ export const contentMoni: {
   {
     backgroundColor: "bg-tertiary",
     imageUrl: Bene6.src,
-    text: "Die Wasserlichtspiele im planten un blomen",
+    text: "Bene und Janna: Die Wasserlichtspiele im planten un blomen",
   },
   {
     backgroundColor: "bg-quartiary",
