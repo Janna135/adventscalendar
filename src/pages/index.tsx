@@ -1,67 +1,61 @@
 import { Inter } from "next/font/google";
-import { Tile } from "@/components/Tile";
+
 import { useState } from "react";
-import { ImageOverlay } from "@/components/ImageOverlay";
 import TestImage from "@/assets/TestImage.jpg";
 import Link from "next/link";
+import { DayProps } from "@/domain/DayProps";
 
 const inter = Inter({ subsets: ["latin"] });
-
-export interface DayProps {
-  imageUrl: string;
-  backgroundColor: string;
-  text?: string;
-}
 
 const dummydata: DayProps[] = [
   {
     imageUrl: TestImage.src,
-    backgroundColor: "bg-primary",
+
     text: "Lorem ipsum trallalalala",
   },
-  { imageUrl: TestImage.src, backgroundColor: "bg-secondary" },
-  { imageUrl: TestImage.src, backgroundColor: "bg-tertiary" },
-  { imageUrl: TestImage.src, backgroundColor: "bg-quartiary" },
+  { imageUrl: TestImage.src },
+  { imageUrl: TestImage.src },
+  { imageUrl: TestImage.src },
   {
     imageUrl: TestImage.src,
-    backgroundColor: "bg-primary",
+
     text: "Lorem ipsum trallalalala",
   },
-  { imageUrl: TestImage.src, backgroundColor: "bg-secondary" },
-  { imageUrl: TestImage.src, backgroundColor: "bg-tertiary" },
-  { imageUrl: TestImage.src, backgroundColor: "bg-quartiary" },
+  { imageUrl: TestImage.src },
+  { imageUrl: TestImage.src },
+  { imageUrl: TestImage.src },
   {
     imageUrl: TestImage.src,
-    backgroundColor: "bg-primary",
+
     text: "Lorem ipsum trallalalala",
   },
-  { imageUrl: TestImage.src, backgroundColor: "bg-secondary" },
-  { imageUrl: TestImage.src, backgroundColor: "bg-tertiary" },
-  { imageUrl: TestImage.src, backgroundColor: "bg-quartiary" },
+  { imageUrl: TestImage.src },
+  { imageUrl: TestImage.src },
+  { imageUrl: TestImage.src },
   {
     imageUrl: TestImage.src,
-    backgroundColor: "bg-primary",
+
     text: "Lorem ipsum trallalalala",
   },
-  { imageUrl: TestImage.src, backgroundColor: "bg-secondary" },
-  { imageUrl: TestImage.src, backgroundColor: "bg-tertiary" },
-  { imageUrl: TestImage.src, backgroundColor: "bg-quartiary" },
+  { imageUrl: TestImage.src },
+  { imageUrl: TestImage.src },
+  { imageUrl: TestImage.src },
   {
     imageUrl: TestImage.src,
-    backgroundColor: "bg-primary",
+
     text: "Lorem ipsum trallalalala",
   },
-  { imageUrl: TestImage.src, backgroundColor: "bg-secondary" },
-  { imageUrl: TestImage.src, backgroundColor: "bg-tertiary" },
-  { imageUrl: TestImage.src, backgroundColor: "bg-quartiary" },
+  { imageUrl: TestImage.src },
+  { imageUrl: TestImage.src },
+  { imageUrl: TestImage.src },
   {
     imageUrl: TestImage.src,
-    backgroundColor: "bg-primary",
+
     text: "Lorem ipsum trallalalala",
   },
-  { imageUrl: TestImage.src, backgroundColor: "bg-secondary" },
-  { imageUrl: TestImage.src, backgroundColor: "bg-tertiary" },
-  { imageUrl: TestImage.src, backgroundColor: "bg-quartiary" },
+  { imageUrl: TestImage.src },
+  { imageUrl: TestImage.src },
+  { imageUrl: TestImage.src },
 ];
 
 {
@@ -77,10 +71,10 @@ export default function Home() {
   const currentDay = new Date().getDate();
   const currentMonth = new Date().getMonth();
 
-  // TODO: change to 11
-  if (currentMonth !== 10) {
-    return <p>Please wait... the elves are building your advents-calendar.</p>;
-  }
+  // // TODO: change to 11
+  // if (currentMonth !== 10) {
+  //   return <p>Please wait... the elves are building your advents-calendar.</p>;
+  // }
 
   console.log(currentMonth);
   return (

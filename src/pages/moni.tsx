@@ -3,13 +3,8 @@ import { Tile } from "@/components/Tile";
 import { useState } from "react";
 import { ImageOverlay } from "@/components/ImageOverlay";
 import { contentMoni } from "@/const/contentMoni";
+import { DayProps } from "@/domain/DayProps";
 const inter = Inter({ subsets: ["latin"] });
-
-export interface DayProps {
-  imageUrl: string;
-  backgroundColor: string;
-  text?: string;
-}
 
 export default function Home() {
   const [selectedImage, setSelectedImage] = useState<DayProps | undefined>(

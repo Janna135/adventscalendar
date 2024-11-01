@@ -1,7 +1,7 @@
 import clsx from "clsx";
 import styles from "./Tile.module.css";
-import GiftOpen from "@/assets/gift-box.png";
-import GiftClosed from "@/assets/gift.png";
+
+import Window from "@/assets/Window.png";
 import Image from "next/image";
 interface Props {
   title: string;
@@ -18,14 +18,15 @@ export const Tile: React.FC<Props> = ({
 }) => {
   return (
     <div
-      className={clsx(styles.tile, backgroundColor)}
+      className={clsx(
+        styles.tile,
+        backgroundColor,
+        isAvailable && styles.tileOpen
+      )}
       onClick={isAvailable ? () => onClick() : undefined}
     >
-      {isAvailable ? (
-        <Image src={GiftOpen.src} alt="" width={80} height={80} />
-      ) : (
-        <Image src={GiftClosed.src} alt="" width={80} height={80} />
-      )}
+      <Image src={Window.src} alt="" fill />
+
       <p>{title}</p>
     </div>
   );
