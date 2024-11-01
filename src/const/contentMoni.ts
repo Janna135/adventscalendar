@@ -1,154 +1,127 @@
-import Dampferfahrt from "@/assets/moni/Dampferfahrt.jpg";
-import Norwegen from "@/assets/moni/Norwegen.jpg";
-import Pillnitz from "@/assets/moni/Pillnitz.jpg";
-import Dresden from "@/assets/moni/Dresden.jpg";
-import Aurora from "@/assets/moni/Aurora.jpg";
-import Schlitten from "@/assets/moni/Schlitten.jpg";
+import Janec_Bild1 from "@/assets/moni/Janec_Bild1.jpeg";
+import Janec_Bild2 from "@/assets/moni/Janec_Bild2.jpeg";
+import Janec_Bild3 from "@/assets/moni/Janec_Bild3.jpeg";
+import Janec_Bild4 from "@/assets/moni/Janec_Bild4.jpeg";
+import Janec_Bild5 from "@/assets/moni/Janec_Bild5.jpeg";
+import Janec_Bild6 from "@/assets/moni/Janec_Bild6.jpeg";
 
-import Büsum from "@/assets/moni/Büsum.jpeg";
-import Irland from "@/assets/moni/Irland.jpeg";
-import Niagara from "@/assets/moni/NiagaraFalls.jpeg";
-import Fernsehturm from "@/assets/moni/Fernsehturm.jpeg";
-import Jodi from "@/assets/moni/Jodi.jpeg";
-import Nancy from "@/assets/moni/Nancy.jpeg";
+import Lucas_Berg_Gipfel from "@/assets/moni/Lucas_Berg_Gipfel.jpg";
+import Lucas_Berg_Rahmen from "@/assets/moni/Lucas_Berg_Rahmen.jpg";
+import Lucas_Dino from "@/assets/moni/Lucas_Dino.jpg";
+import Lucas_Geburtstag from "@/assets/moni/Lucas_Geburtstag.jpg";
+import Lucas_Moritzburg from "@/assets/moni/Lucas_Moritzburg.jpg";
+import Lucas_Polar_DD from "@/assets/moni/Lucas_Polar_DD.jpg";
 
-import Schneetag from "@/assets/moni/Schneetag.jpg";
-import Golfplatz from "@/assets/moni/Golfplatz.jpg";
-import Kunst from "@/assets/moni/Kunst.jpg";
-import Halstenbek from "@/assets/moni/LandschaftHalstenbek.jpg";
-import Tomaten from "@/assets/moni/Tomaten.jpg";
-import Umzug from "@/assets/moni/Umzug.jpg";
+import Mama1 from "@/assets/moni/Mama1.jpg";
+import Mama2 from "@/assets/moni/Mama2.jpg";
+import Mama3 from "@/assets/moni/Mama3.jpg";
+import Mama4 from "@/assets/moni/Mama4.jpg";
+import Mama5 from "@/assets/moni/Mama5.jpg";
+import Mama6 from "@/assets/moni/Mama6.jpg";
 
-import Beach from "@/assets/moni/Beach.jpeg";
-import Cats from "@/assets/moni/Cats.jpeg";
-import Family from "@/assets/moni/Family.jpeg";
-import Fanö from "@/assets/moni/Fanö.jpeg";
-import Water from "@/assets/moni/Water.jpeg";
-import Winter from "@/assets/moni/Winter.jpeg";
+import Bene1 from "@/assets/moni/Bene1.jpg";
+import Bene2 from "@/assets/moni/Bene2.jpg";
+import Bene3 from "@/assets/moni/Bene3.jpg";
+import Bene4 from "@/assets/moni/Bene4.jpg";
+import Bene5 from "@/assets/moni/Bene5.jpg";
+import Bene6 from "@/assets/moni/Bene6.jpg";
+import { DayProps } from "@/domain/DayProps";
 
-export const contentMoni: {
-  imageUrl: string;
-  text: string;
-  backgroundColor: string;
-}[] = [
+export const contentMoni: DayProps[] = [
   {
-    
-    imageUrl: Dampferfahrt.src,
-    text: "Dampferfahrt zum Schloss Pilnitz. Es war ein anstrengender, aber sehr schöner Tag. Ihr könnt uns immer gerne in Dresden besuchen kommen.",
+    imageUrl: Janec_Bild1.src,
+    text: "Janec: Ein kleiner Sonnenstrahl am Morgen",
   },
   {
-    ,
-    imageUrl: Büsum.src,
-    text: "ein schöner Sonnenuntergang in Büsum",
+    imageUrl: Lucas_Berg_Gipfel.src,
+    text: "Lucas: Jedes Mal anstrengend, aber glücklich, wenn man oben angekommen ist",
   },
   {
-    ,
-    imageUrl: Schneetag.src,
-    text: "Schneetag in Wedel im März - wenn es sowas doch mal zu Weihnachten gäbe",
+    imageUrl: Bene1.src,
+    text: "Molly an ihrem Lieblingsplatz im Sommer - versteckt und wachsam",
   },
   {
-    ,
-    imageUrl: Beach.src,
-    text: "Of course, Hille has to be part of this 'Adventskalender', too😊 The selection of the small pictures give you a glimpse of her, when she is feeling happy and relaxed. Birgit, too by the way😉",
+    imageUrl: Mama1.src,
+    text: "Die drei Denker - Dezember 2023",
   },
   {
-    
-    imageUrl: Norwegen.src,
-    text: "Unsere sehr schöne Norwegen Reise. Die Landschaft war atemberaubend.",
+    imageUrl: Janec_Bild2.src,
+    text: "Janec: Einfach nur Fanø",
   },
   {
-    ,
-    imageUrl: Irland.src,
-    text: "Hille und ich mit Blick auf die Klippen in Irland",
+    imageUrl: Lucas_Dino.src,
+    text: "Lucas: Fast wie echt!",
   },
   {
-    ,
-    imageUrl: Golfplatz.src,
-    text: "Der Geschenketisch an unserer neuen Wohnung gab Starthilfe für die Eröffnung des Golfplatz Gebers",
+    imageUrl: Bene2.src,
+    text: "Nach einem kurzen Eisbad in der Ostsee bei 7 Wassertemperatur",
   },
   {
-    ,
-    imageUrl: Cats.src,
-    text: "They look so innocent and cute, but Charly, Luna and Abby are the real owner of the house. But good for us, we are allowed to stay😅...or just ignored 🤔, as long as we feed and pet them? Who knows?😜",
+    imageUrl: Mama2.src,
+    text: "Happy and a little bit crazy siblings",
   },
   {
-    
-    imageUrl: Pillnitz.src,
-    text: "Verliert nie den Spaß am Leben. Ich finde, dass ich die Pose sehr gut nachgemacht habe.(Garten vom Schloss Pillnitz)",
+    imageUrl: Janec_Bild3.src,
+    text: "Janec: Auch mal rausgeputzt",
   },
   {
-    ,
-    imageUrl: Niagara.src,
-    text: "Niagara Fälle aus Sicht der kanadischen Seite",
+    imageUrl: Lucas_Moritzburg.src,
+    text: "Lucas: Im Winter fast noch schöner als im Sommer",
   },
   {
-    ,
-    imageUrl: Kunst.src,
-    text: "Janna und Bene als Kunst - Monet Ausstellung in Hamburg",
+    imageUrl: Bene3.src,
+    text: "Birdwatching - Mit Fernglas und App für die regionale Forschung",
   },
   {
-    ,
-    imageUrl: Fanö.src,
-    text: "Fanø 2023💓 We had such a good time, lots of fun, even sunny days (surprisingly😉), enough food, sweets and alcohol😊 Thank you for sharing your Denmark-week with us❣️",
+    imageUrl: Mama3.src,
+    text: "Fanø-feeling",
   },
   {
-    
-    imageUrl: Dresden.src,
-    text: "Es gibt so viele schöne alte Gebäude in Dresden. Liebe Grüße :-)",
+    imageUrl: Janec_Bild4.src,
+    text: "Janec: Strandtag auf Fanø",
   },
   {
-    ,
-    imageUrl: Jodi.src,
-    text: "Familie kennengelernt in Jodis Garten in Amerika",
+    imageUrl: Lucas_Geburtstag.src,
+    text: "Lucas: Wir werden alt!!!",
   },
   {
-    ,
-    imageUrl: Tomaten.src,
-    text: "Tomatengang im neuen Garten an der neuen Wohnung",
+    imageUrl: Bene4.src,
+    text: "Mein eigenes Brettspiel - Beam it up - hoffentlich will es ein Verlag!",
   },
   {
-    ,
-    imageUrl: Family.src,
-    text: "Family is so special and important❣️Here are some of the German ones. You are always part  of us and we can hardly wait to see you again soon😊🤗❤️",
+    imageUrl: Mama4.src,
+    text: "Binnenalster Hamburg",
   },
   {
-    
-    imageUrl: Aurora.src,
-    text: "Polarlichter. Den Abend in Norwegen werden wir niemals vergessen. (Lucas)",
+    imageUrl: Janec_Bild5.src,
+    text: "Janec: Endlich die Erzieherausbildung erfolgreich geschafft!",
   },
   {
-    ,
-    imageUrl: Fernsehturm.src,
-    text: "Kevin und ich vor dem CN Tower, Toronto, Canada",
+    imageUrl: Lucas_Berg_Rahmen.src,
+    text: "Lucas: Die Jacke war wohl etwas klein",
   },
   {
-    ,
-    imageUrl: Umzug.src,
-    text: "Umzug nach Halstenbek - was wohl in den Kartons war?",
+    imageUrl: Bene5.src,
+    text: "Hitzacker an der Elbe",
   },
   {
-    ,
-    imageUrl: Water.src,
-    text: "June 2023. This is us, enyoying 'our' island",
+    imageUrl: Mama5.src,
+    text: "I've bought cat grass",
   },
   {
-    
-    imageUrl: Schlitten.src,
-    text: "Wie lange ist es her, dass ihr Schlitten gefahren seid? Bei uns schon eine Ewigkeit, sodass wir es am letzten Wintertag im März (!) 2023 nachhoolen mussten. (Lucas)",
+    imageUrl: Janec_Bild6.src,
+    text: "Janec: Lieblingsort",
   },
   {
-    ,
-    imageUrl: Nancy.src,
-    text: "Wir sind mit Nancy im Park spazieren",
+    imageUrl: Lucas_Polar_DD.src,
+    text: "Lucas: Auch in Dresden zu sehen gewesen",
   },
   {
-    ,
-    imageUrl: Halstenbek.src,
-    text: "In der Nähe unserer neuen Wohnung finden sich schöne Landschaften. Besonders schön bei untergehender Sonne.",
+    imageUrl: Bene6.src,
+    text: "Die Wasserlichtspiele im planten un blomen",
   },
   {
-    ,
-    imageUrl: Winter.src,
-    text: "We wish you a merry Xmas and a happy New Year 2024. Have a good time with Glenn's family. Don't be too sad, wish you lots of laughter and positive feelings❤️🤶🏼🎅🏽🎄Take care❣️",
+    imageUrl: Mama6.src,
+    text: "Bodensee - view from island Mainau",
   },
 ];
