@@ -38,7 +38,7 @@ export const contentMoni: DayProps[] = [
   },
   {
     imageUrl: Bene1.src,
-    text: "Molly an ihrem Lieblingsplatz im Sommer - versteckt und wachsam",
+    text: "Bene und Janna: Molly an ihrem Lieblingsplatz im Sommer - versteckt und wachsam",
   },
   {
     imageUrl: Mama1.src,
@@ -54,7 +54,7 @@ export const contentMoni: DayProps[] = [
   },
   {
     imageUrl: Bene2.src,
-    text: "Nach einem kurzen Eisbad in der Ostsee bei 7 Wassertemperatur",
+    text: "Bene und Janna: Nach einem kurzen Eisbad in der Ostsee bei 7 Wassertemperatur",
   },
   {
     imageUrl: Mama2.src,
@@ -70,7 +70,7 @@ export const contentMoni: DayProps[] = [
   },
   {
     imageUrl: Bene3.src,
-    text: "Birdwatching - Mit Fernglas und App für die regionale Forschung",
+    text: "Bene und Janna: Birdwatching - Mit Fernglas und App für die regionale Forschung",
   },
   {
     imageUrl: Mama3.src,
@@ -86,7 +86,7 @@ export const contentMoni: DayProps[] = [
   },
   {
     imageUrl: Bene4.src,
-    text: "Mein eigenes Brettspiel - Beam it up - hoffentlich will es ein Verlag!",
+    text: "Bene und Janna: Mein eigenes Brettspiel - Beam it up - hoffentlich will es ein Verlag!",
   },
   {
     imageUrl: Mama4.src,
@@ -102,7 +102,7 @@ export const contentMoni: DayProps[] = [
   },
   {
     imageUrl: Bene5.src,
-    text: "Hitzacker an der Elbe",
+    text: "Bene und Janna: Hitzacker an der Elbe",
   },
   {
     imageUrl: Mama5.src,
@@ -118,7 +118,7 @@ export const contentMoni: DayProps[] = [
   },
   {
     imageUrl: Bene6.src,
-    text: "Die Wasserlichtspiele im planten un blomen",
+    text: "Bene und Janna: Die Wasserlichtspiele im planten un blomen",
   },
   {
     imageUrl: Mama6.src,
