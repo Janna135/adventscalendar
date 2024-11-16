@@ -76,3 +76,18 @@
     border-right: solid transparent 400px;
   }
 }
+
+.star {
+  border: 4px solid white;
+  border-radius: 50%;
+  width: 0;
+  display: inline-block;
+  animation: star 2000ms infinite;
+  position: absolute;
+}
+
+@keyframes star {
+  50% {
+    opacity: 0;
+  }
+}

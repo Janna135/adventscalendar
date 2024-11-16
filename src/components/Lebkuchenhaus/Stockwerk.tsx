@@ -8,7 +8,7 @@ export const Stockwerk: React.FC<{
   return (
     <section className={styles.section}>
       <SugarBorder length={amountSugar} />
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 w-full gap-8">
+      <div className="grid grid-cols-2 pt-8 lg:pt-6 lg:grid-cols-4 w-full gap-8">
         {children}
       </div>
     </section>

@@ -1,7 +1,7 @@
 .tile {
   @apply aspect-square rounded-lg;
   @apply relative;
-  @apply px-8 py-8;
+  @apply p-4 py-2  md:p-4  xl:px-8 xl:py-8;
   @apply flex justify-start items-end;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .tile p {
-  @apply text-white text-5xl;
+  @apply text-white text-3xl md:text-5xl;
   @apply z-10;
 }
 

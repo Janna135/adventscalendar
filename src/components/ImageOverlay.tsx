@@ -1,8 +1,9 @@
-import { DayProps } from "@/pages";
 import Image from "next/image";
 import styles from "./ImageOverlay.module.css";
 import { useEffect, useState } from "react";
 import clsx from "clsx";
+import { DayProps } from "@/domain/DayProps";
+
 interface Props {
   dayProps: DayProps;
   onClose: () => void;
@@ -19,7 +20,6 @@ export const ImageOverlay: React.FC<Props> = ({ dayProps, onClose }) => {
     <div
       className={clsx(
         styles.imageOverlay,
-        isClosing && styles.imageOverlayClose,
         !isClosing && styles.imageOverlayOpen
       )}
     >

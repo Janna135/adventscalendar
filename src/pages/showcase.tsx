@@ -1,6 +1,4 @@
 import { LebkuchenHouse } from "@/components/Lebkuchenhaus/House";
-import { Stockwerk } from "@/components/Lebkuchenhaus/Stockwerk";
-import { Tile } from "@/components/Tile";
 import { contentAnke } from "@/const/contentAnke";
 
 export default function Showcase() {
