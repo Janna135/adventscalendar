@@ -5,12 +5,12 @@ import Janec_Bild4 from "@/assets/moni/Janec_Bild4.jpeg";
 import Janec_Bild5 from "@/assets/moni/Janec_Bild5.jpeg";
 import Janec_Bild6 from "@/assets/moni/Janec_Bild6.jpeg";
 
-import Lucas_Berg_Gipfel from "@/assets/moni/Lucas_Berg_Gipfel.jpg";
-import Lucas_Berg_Rahmen from "@/assets/moni/Lucas_Berg_Rahmen.jpg";
+import Lucas_Berg_Gipfel from "@/assets/moni/Lucas_Berg_Gipfel_1.jpg";
+import Lucas_Berg_Rahmen from "@/assets/moni/Lucas_Berg_Rahmen_1.jpg";
 import Lucas_Dino from "@/assets/moni/Lucas_Dino.jpg";
 import Lucas_Geburtstag from "@/assets/moni/Lucas_Geburtstag.jpg";
 import Lucas_Moritzburg from "@/assets/moni/Lucas_Moritzburg.jpg";
-import Lucas_Polar_DD from "@/assets/moni/Lucas_Polar_DD.jpg";
+import Lucas_Polar_DD from "@/assets/moni/Lucas_Polar_DD_1.jpg";
 
 import Mama1 from "@/assets/moni/Mama1.jpg";
 import Mama2 from "@/assets/moni/Mama2.jpg";
