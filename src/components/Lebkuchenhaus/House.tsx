@@ -59,10 +59,11 @@ export const LebkuchenHouse: React.FC<{ data: DayProps[] }> = ({ data }) => {
         </div>
         {sectionMap.map((items, i) => (
           <Stockwerk amountSugar={11 + i} key={"stockwerk-" + i}>
-            {items.map((item, i) => {
+            {items.map((item, index) => {
               const isAvailable = item.day! <= currentDay;
               return (
                 <Tile
+                  key={"tile-" + i + index}
                   title={`${item.day}`}
                   backgroundColor={
                     isAvailable ? "bg-orange-300" : "bg-indigo-950"
