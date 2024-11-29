@@ -1,3 +1,4 @@
+"use client";
 import { createSections } from "@/util/createSections";
 import { Stockwerk } from "./Stockwerk";
 import { Tile } from "../Tile";
