@@ -25,7 +25,7 @@ export const Tile: React.FC<Props> = ({
       )}
       onClick={isAvailable ? () => onClick() : undefined}
     >
-      <Image src={Window.src} alt="" fill />
+      <Image src={Window.src} alt="" fill priority />
 
       <p>{title}</p>
     </div>

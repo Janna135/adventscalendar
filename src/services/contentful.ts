@@ -29,7 +29,7 @@ class ContentServiceClient {
               identifier: currCalendar.identifier,
               entries: currCalendar.entries?.map((e) => ({
                 // @ts-expect-error
-                imageUrl: e.fields.image.fields.file.url ?? "",
+                image: "https:" + e.fields.image.fields.file.url ?? "",
                 // @ts-expect-error
                 text: e.fields.text,
                 // @ts-expect-error

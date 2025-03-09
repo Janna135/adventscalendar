@@ -1,6 +1,6 @@
 import { LebkuchenHouse } from "@/components/Lebkuchenhaus/House";
+import { Loading } from "@/components/Loading";
 import { Calendar } from "@/domain/Calendar";
-import { IAdventcalendar } from "@/domain/generated/contentful";
 import ContentService from "@/services/contentful";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
@@ -8,13 +8,12 @@ import { useEffect, useState } from "react";
 const CalendarPage = () => {
   const router = useRouter();
   const [calendar, setCalendar] = useState<Calendar | undefined>(undefined);
-  console.log(router.query.id);
-
+  const [loading, setLoading] = useState(true);
   useEffect(() => {
     const getCalendar = async (id: string) => {
       const currCalendar = await ContentService.getCalendarByIdentifier(id);
-      console.log(currCalendar);
       if (currCalendar) setCalendar(currCalendar);
+      setLoading(false);
     };
 
     if (typeof router.query.id === "string") {
@@ -22,6 +21,9 @@ const CalendarPage = () => {
     }
   }, [router.query.id]);
 
+  if (loading) {
+    return <Loading />;
+  }
   if (!calendar) {
     return (
       <div>

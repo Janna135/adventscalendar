@@ -39,6 +39,7 @@ export const ImageOverlay: React.FC<Props> = ({ dayProps, onClose }) => {
             alt=""
             fill={true}
             style={{ objectFit: "contain" }}
+            priority
           />
         </div>
         <p className="mt-4 md:text-lg text-center">{dayProps.text}</p>
