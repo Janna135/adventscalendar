@@ -13,6 +13,7 @@
 .back {
   @apply flex items-start pt-8 mb-8 text-primary;
   @apply w-full md:w-4/5 lg:w-1/2;
+  @apply cursor-pointer;
 }
 
 .content {

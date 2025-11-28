@@ -3,6 +3,7 @@
   @apply relative;
   @apply p-4 py-2  md:p-4  xl:px-8 xl:py-8;
   @apply flex justify-start items-end;
+  @apply cursor-pointer;
 }
 
 .tileOpen::after {
