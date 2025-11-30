@@ -83,8 +83,8 @@ export default function Home() {
     >
       <h1>Adventskalender 2023</h1>
       <p>Hier solltest du eigentlich nicht sein</p>
-      <Link href="/anke">Zu Ankes Adventskalender</Link>
-      <Link href="/moni">Zu Monis Adventskalender</Link>
+      <Link href="/calendar/anke">Zu Ankes Adventskalender</Link>
+      <Link href="/calendar/moni">Zu Monis Adventskalender</Link>
     </main>
   );
 }
