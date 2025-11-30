@@ -1,5 +1,6 @@
 import { LebkuchenHouse } from "@/components/Lebkuchenhaus/House";
 import { Loading } from "@/components/Loading";
+import { UnderConstruction } from "@/components/UnderConstruction";
 import { Calendar } from "@/domain/Calendar";
 import ContentService from "@/services/contentful";
 import { useRouter } from "next/router";
@@ -32,6 +33,12 @@ const CalendarPage = () => {
       </div>
     );
   }
+  const currentMonth = new Date().getMonth();
+
+  if (currentMonth !== 11) {
+    return <UnderConstruction />;
+  }
+
   return (
     <main className="flex flex-col bg-indigo-950 bg-or">
       <LebkuchenHouse
