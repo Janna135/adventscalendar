@@ -22,6 +22,12 @@ const CalendarPage = () => {
     }
   }, [router.query.id]);
 
+  const currentMonth = new Date().getMonth();
+
+  if (currentMonth !== 11) {
+    return <UnderConstruction />;
+  }
+
   if (loading) {
     return <Loading />;
   }
@@ -32,11 +38,6 @@ const CalendarPage = () => {
         you this link to check if everything is setup.
       </div>
     );
-  }
-  const currentMonth = new Date().getMonth();
-
-  if (currentMonth !== 11) {
-    return <UnderConstruction />;
   }
 
   return (

@@ -81,7 +81,7 @@ export default function Home() {
     <main
       className={`flex min-h-screen flex-col items-center p-4 ${inter.className}`}
     >
-      <h1>Adventskalender 2023</h1>
+      <h1>Adventskalender 2025</h1>
       <p>Hier solltest du eigentlich nicht sein</p>
       <Link href="/calendar/anke">Zu Ankes Adventskalender</Link>
       <Link href="/calendar/moni">Zu Monis Adventskalender</Link>
